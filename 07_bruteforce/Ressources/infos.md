@@ -2,7 +2,7 @@
 
 Le listing des tables SQL laisse apparaitre `Member_Brute_Forceid_comment` ce qui laisse a pense que du bruteforce est necessaire, neanmoins cette db contient le mot de passe pour admin et root `3bf1114a986ba87ed28fc1b5884fc2f8` en utilisant un decrypter en ligne on obtient le mot de pass `shadow`, qui se trouve etre le 65e mot de passe le plus utilise de 2020.
 
-1. Pour realiser une attaque par brute force il faut une liste de mots de passe (https://nordpass.com/most-common-passwords-list/)
+1. Pour realiser une attaque par brute force il faut une liste de mots de passe (https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-10000.txt)
 2. Ecrire un script permettant le bruteforce
    - soit en utilisant le site pour verifier
    - soit en utilisant le hash recuperer suite a une attaque
