@@ -7,11 +7,11 @@
 
 # Explications
 
-Ce type de vulnerabilite permet a l'attaquant d'uploader n'importe quel type d'exploit directement sur le serveur.
-Ensuite il est possible d'executer l'exploit grace a d'autres techniques.
-Tout deviens possible pour l'attauant, escalation de privileges, suppression de tous les fichiers, ... 
+Ce type de vulnerabilité permet à l'attaquant d'uploader n'importe quel type d'exploit directement sur le serveur.
+Ensuite il est possible d'exécuter l'exploit grâce à d'autres techniques.
+Tout devient possible pour l'attaquant, escalation de privileges, suppression de tous les fichiers, ... 
 
 # Corrections
 
-Pour corriger cette faille on pourrait mettre en place une verification de la signature de l'image, ou encore une verification de l'image complete en utilisant des librairies tel que pillow en python.
-Si l'image possede une taille, elle est valide.
+Pour corriger cette faille on pourrait mettre en place une vérification de la signature de l'image, ou encore une vérification de l'image complète en utilisant des librairies telle que pillow en python.
+Si l'image possède une taille, elle est valide.

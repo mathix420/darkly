@@ -1,6 +1,6 @@
 # Recherches
 
-1. Inpecter le code source de la page
+1. Inspecter le code source de la page
 2. Hidden input suspect
 3. Modifier l'email dans l'input par le sien
 
@@ -8,8 +8,8 @@
 
 # Explications
 
-Les inputs caches ne sont pas securises et peuvent etre modifies par n'importe quel utilisateur.
+Les inputs cachés ne sont pas sécurisés et peuvent être modifiés par n'importe quel utilisateur.
 
 # Corrections
 
-Ne jamais se fier aux entree utilisateur et ne jamais integrer de la logique sensible en front.
+Ne jamais se fier aux entrées utilisateur et ne jamais intégrer de la logique sensible en front.

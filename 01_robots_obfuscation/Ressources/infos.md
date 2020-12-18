@@ -1,7 +1,7 @@
 # Recherches
 
-1. Verification du fichier `robots.txt` afin de verifier les fichiers/dossiers que l'admin veut cacher aux moteurs de recherche
-2. Verification du dossier `/.hidden`
+1. Vérification du fichier `robots.txt` afin de vérifier les fichiers/dossiers que l'admin veut cacher aux moteurs de recherche
+2. Vérification du dossier `/.hidden`
 3. Construction d'un spider permettant de scanner tous les chemins
 4. Lancement du spider
 
@@ -9,8 +9,8 @@
 
 # Explications
 
-Identique aux explications de 00, l'admin a voulu cacher un fichier en les obfuscants mais l'obfuscation n'est pas une maniere securisee de cacher des choses.
+Identique aux explications de 00, l'admin a voulu cacher un fichier en les obfuscants mais l'obfuscation n'est pas une manière sécurisée de cacher des choses.
 
 # Corrections
 
-Le seul moyen de protéger l’accès a une page est une forme d’authentification.
+Le seul moyen de protéger l’accès à une page est une forme d’authentification.
